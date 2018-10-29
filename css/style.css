@@ -1,0 +1,74 @@
+body, html {
+  font: 1.5  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font: 1.5 Arial, Helvetica,sans-serif;
+  background-color:#ffffff;
+  margin: 0rem;
+  padding: 0rem;
+  background: url(../img/signup2.jpg)fixed center no-repeat;
+  background-size: cover;
+}
+
+.form-plate{
+  width:50%;
+  float:right;
+  background-color:#ffffff;
+  border-top-left-radius: 7px;
+  height: 1000px;
+  background-size: cover;
+}
+
+.main-form{
+  width:60%;
+  margin:auto;
+  margin-top:55px;
+  padding:20px;
+}
+
+.main-form p{
+  color:#bbbfc4; font-size: 14px
+}
+
+.bottom {
+  font-size: 14px;
+}
+
+/*form input*/
+.rap input{
+font-size: 14px;
+font-weight: 600px;
+margin-bottom: 30px;
+width: 100%;
+box-sizing: border-box;
+background-color:#ffffff;
+box-shadow: none;
+outline: none;
+border:none;
+border-bottom: 1px solid #e9e3e3;
+}
+.button:hover{
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.8);
+  -webkit-transition-duration: 0.5s; /* Safari */
+}
+
+@media (max-width: 670px) {
+  .form-plate{
+  width:56%;
+  box-shadow: rgb(12, 12, 12)0.2;
+  border-radius: 7px;
+}
+.main-form{
+  width:100%;
+  margin:auto;
+}
+
+.main-form p, .bottom{
+ font-size: 12px;
+}
+
+.rap input{
+  font-size: 11px;
+}
+
+a .button{margin:0px; padding:0px;}
+}
+
